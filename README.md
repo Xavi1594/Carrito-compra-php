@@ -2,6 +2,12 @@
 
 Este proyecto es una implementación sencilla de un carrito de compras en PHP. Permite a los usuarios agregar, eliminar y calcular el total de productos en su carrito, así como registrar errores en un archivo CSV.
 
+![image](https://github.com/user-attachments/assets/c338d6b3-a574-4483-a0dc-22bfb298baf7)
+![image](https://github.com/user-attachments/assets/24533a58-9024-4fe8-a2e9-57358cfae76d)
+
+
+
+
 ## Estructura del Proyecto
 
 - **Producto.php**: Clase que representa un producto, incluyendo su nombre, SKU (identificador único) y precio.
@@ -57,16 +63,5 @@ Para eliminar un producto del carrito:
 
 Los errores se registran en el archivo `carrito.log` en formato CSV. Cada línea contiene la fecha, el nivel de error (ERROR) y el mensaje de error.
 
-## Notas
 
-- Asegúrate de tener permisos de escritura en el directorio donde se crea el archivo de log para que los errores se registren correctamente.
-- Puedes personalizar el diseño CSS mediante el archivo `styles.css`.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir el código como desees, siempre que se incluya el aviso de licencia.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas realizar mejoras o añadir nuevas funcionalidades, siéntete libre de abrir un "pull request".
 
