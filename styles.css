@@ -1,0 +1,137 @@
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.2);
+    position: relative; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.625rem rgba(0,0,0,0.1);
+}
+
+.cart-content-wrapper {
+    padding: 3rem;
+}
+
+h1, h2 {
+    color: #212529;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #333;
+    background-color: #e9ecef;
+}
+
+button {
+    background-color: #28a745;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.error {
+    color: #dc3545;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 0.625rem;
+    margin: 0.3125rem 0;
+    width: 100%;
+    max-width: 18.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+form button {
+    background-color: #28a745;
+    margin-top: 0.625rem;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.success:before {
+    content: "✔️ ";
+    font-size: 20px;
+}
